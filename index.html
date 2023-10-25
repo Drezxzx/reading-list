@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="logic/getBooks.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playpen+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/common.css">
+    <link rel="stylesheet" href="public/css/mainpage.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section class="contenido">
+            <header>
+                <h1 class="titulo"></h1>
+                <h3 class="subtitulo"></h3>
+                <form id="filtro">
+                    <div id="genero">
+                        <label for="genero">Filtrar por género</label>
+                        <select name="genero" id="genero-select">
+                            <option value="todas">Todas </option>
+                        </select>
+                    </div>
+                    <div id="page"></div>
+                </form>
+            </header>
+            <div class="img">
+            </div>
+        </section>
+        <section class="listalectura hiddenD">
+            <div class="title-list"><h1 >Lista de lectura</h1></div>
+            <div class="wrapperlista">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
